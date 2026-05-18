@@ -1,0 +1,17 @@
+{
+  "name": "OQTA Sender",
+  "short_name": "OQTA",
+  "description": "ハートを送って受信機を鳴らす",
+  "start_url": "./sender.html",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#579BE4",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://oqta-lite-receiver.fly.dev/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
