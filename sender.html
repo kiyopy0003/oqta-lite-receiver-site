@@ -343,6 +343,7 @@
             ${online ? "オンライン" : timeAgo(r.last_online_at)}
             ${r.battery_percent != null ? ` · 🔋${r.battery_percent}%` : ""}
             ${r.is_charging ? "⚡" : ""}
+            ${r.weather ? ` · ${r.weather}` : ""}
           </div>
         </div>
       `;
